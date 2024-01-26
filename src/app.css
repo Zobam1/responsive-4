@@ -7,6 +7,13 @@
   list-style: none;
   margin-left: 50px;
 }
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-links li .main-page {
+  color: #6c63ff;
+}
 .hero {
   background: #f9f7fe;
   text-align: center;
@@ -33,6 +40,9 @@
   border-radius: 4px;
   padding: 18px 30px;
 }
+.herolink:hover {
+  background: #f9f7fe;
+}
 .herolink a {
   color: white;
   text-decoration: none;
@@ -50,6 +60,13 @@
   border: solid 1px #6c63ff;
   border-radius: 4px;
   padding: 18px 30px;
+  transition: all ease-in-out 300ms;
+}
+.card-links:hover {
+  background: #6c63ff;
+  .contact-link {
+    color: #f9f7fe;
+  }
 }
 .contact-link {
   color: #6c63ff;
@@ -58,7 +75,6 @@
   font-weight: 500px;
   font-family: "Poppins", sans-serif;
 }
-
 .poppins {
   font-family: "Poppins", sans-serif;
 }
@@ -80,6 +96,9 @@ footer .inquire {
   border-radius: 4px;
   padding: 15px 30px;
 }
+.inquire-contact a:hover {
+  background: white;
+}
 .work {
   font-family: "Playfair Display", serif;
   font-size: 48px;
@@ -90,14 +109,16 @@ footer .inquire {
   text-decoration: none;
   font-size: 24px;
 }
-footer .icons {
-  color: #6c63ff;
-}
 footer .icons i {
+  color: #6c63ff;
   margin: 20px;
   padding: 20px;
   background: #f9f7fe;
   border-radius: 50%;
+}
+footer .icons i:hover {
+  color: #f9f7fe;
+  background: #6c63ff;
 }
 @media (max-width: 575px) {
   .nav-bar {
