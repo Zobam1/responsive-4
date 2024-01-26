@@ -1,3 +1,12 @@
+.shecodeslogo {
+  width: 25%;
+  height: auto;
+  min-width: 100px;
+}
+.nav-links li {
+  list-style: none;
+  margin-left: 50px;
+}
 .hero {
   background: #f9f7fe;
   text-align: center;
@@ -24,7 +33,7 @@
   border-radius: 4px;
   padding: 18px 30px;
 }
-a {
+.herolink a {
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -53,12 +62,52 @@ a {
 .poppins {
   font-family: "Poppins", sans-serif;
 }
-.parag {
+.paragraph {
   color: #6c757d;
   font: 16px;
   line-height: 30px;
 }
+footer .inquire {
+  background: #f9f7fe;
+  padding: 30px 100px;
+  margin: 40px 80px;
+}
+.inquire-contact a {
+  text-decoration: none;
+  color: white;
+  background: #6c63ff;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 30px;
+}
+.work {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+.mail-to a {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+footer .icons {
+  color: #6c63ff;
+}
+footer .icons i {
+  margin: 20px;
+  padding: 20px;
+  background: #f9f7fe;
+  border-radius: 50%;
+}
 @media (max-width: 575px) {
+  .nav-bar {
+    width: 100%;
+    padding: auto 30px;
+  }
+  .nav-links li {
+    font-size: 14px;
+    margin-left: 30px;
+  }
   .hero h1 {
     font-size: 44px;
   }
