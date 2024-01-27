@@ -120,6 +120,64 @@ footer .icons i:hover {
   color: #f9f7fe;
   background: #6c63ff;
 }
+.about-image {
+  width: 100%;
+}
+.about-hero h1 {
+  font-size: 64px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  line-height: 80px;
+}
+.about-hero h2 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.about-hero p {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+}
+.work-p {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 80px;
+  text-align: center;
+}
+.work-contact-link {
+  color: #6c63ff;
+  text-decoration: none;
+  background: white;
+  border: solid 1px #6c63ff;
+  border-radius: 4px;
+  padding: 15px 30px;
+  transition: all ease-in-out 300ms;
+}
+.work-contact-link:hover {
+  background: #6c63ff;
+  color: white;
+}
+.work-body h2,
+.contact-body h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.work-body p {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.contact-p {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 80px;
+}
+.fill-form {
+  border: #6c63ff 1px solid;
+}
 @media (max-width: 575px) {
   .nav-bar {
     width: 100%;
